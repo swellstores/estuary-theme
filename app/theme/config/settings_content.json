@@ -1,0 +1,41 @@
+{
+  "fields": [
+    {
+      "type": "field_group",
+      "label": "Header",
+      "fields": [
+        { "id": "sticky_header", "label": "Keep the header in view while scrolling", "type": "toggle", "default": true }
+      ]
+    },
+    {
+      "type": "field_group",
+      "label": "Product photos",
+      "description": "How products show in every photo grid, and on the product page.",
+      "fields": [
+        {
+          "id": "card_words", "label": "Name and price", "type": "select", "default": "over",
+          "options": [
+            { "value": "over", "label": "Over the foot of the photo" },
+            { "value": "below", "label": "Under the photo" }
+          ]
+        },
+        {
+          "id": "card_second_photo", "label": "Show the second photo on hover", "type": "toggle", "default": true,
+          "description": "With a mouse, pointing at a product shows its second photo."
+        },
+        {
+          "id": "card_quick_add", "label": "Add button under each product", "type": "toggle", "default": false,
+          "description": "A product with options to choose links to its page instead."
+        },
+        {
+          "id": "photo_fit", "label": "The product page's large photo", "type": "select", "default": "cover",
+          "options": [
+            { "value": "cover", "label": "Fill the stage (edges may be cropped)" },
+            { "value": "contain", "label": "Show the whole photo" }
+          ],
+          "description": "Show the whole photo when your product photos are cut out on a plain background."
+        }
+      ]
+    }
+  ]
+}

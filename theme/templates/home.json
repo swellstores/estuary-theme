@@ -1,0 +1,90 @@
+{
+  "title": "Home",
+  "sections": [
+    {
+      "id": "cover",
+      "type": "photo_cover",
+      "props": {
+        "eyebrow": "",
+        "heading": "Look closer",
+        "text": "",
+        "stand_in": "first",
+        "caption": "",
+        "primary_label": "Shop all",
+        "primary_href": "/products",
+        "secondary_label": "Browse categories",
+        "secondary_href": "/categories",
+        "height": "screen",
+        "position": "bottom_left",
+        "shade": "soft"
+      }
+    },
+    {
+      "id": "new-in",
+      "type": "photo_grid",
+      "props": {
+        "eyebrow": "",
+        "heading": "New in",
+        "link_label": "View all",
+        "link_href": "/products?sort=newest",
+        "products": {
+          "from": "all",
+          "sort": "newest",
+          "limit": 6
+        },
+        "layout": "first_large",
+        "columns": "3",
+        "shape": "portrait",
+        "edge": "full",
+        "gap": "hairline"
+      }
+    },
+    {
+      "id": "categories",
+      "type": "category_panels",
+      "props": {
+        "eyebrow": "",
+        "heading": "",
+        "collections": {
+          "from": "top",
+          "limit": 3
+        },
+        "layout": "side_by_side",
+        "link_label": "Shop now",
+        "panel_height": "tall"
+      }
+    },
+    {
+      "id": "best-sellers",
+      "type": "photo_reel",
+      "props": {
+        "eyebrow": "",
+        "heading": "Best sellers",
+        "text": "",
+        "products": {
+          "from": "all",
+          "sort": "best_selling",
+          "limit": 8
+        },
+        "shape": "tall",
+        "link_label": "View all",
+        "link_href": "/products",
+        "frame_size": "large"
+      }
+    },
+    {
+      "id": "note",
+      "type": "image_note",
+      "props": {
+        "eyebrow": "",
+        "heading": "Our story",
+        "text": "Learn more about who we are and what we make.",
+        "link_label": "Read more",
+        "link_href": "/pages/about",
+        "side": "right",
+        "note_tone": "page",
+        "photo_height": "tall"
+      }
+    }
+  ]
+}

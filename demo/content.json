@@ -1,0 +1,3023 @@
+{
+  "format": 1,
+  "theme": "theme-photo",
+  "store": {
+    "name": "Fellreach",
+    "tagline": "Gear for the long way round.",
+    "currency": "USD",
+    "locale": "en-US",
+    "email": "hello@fellreach.example",
+    "phone": "+1 (509) 555-0162",
+    "address": {
+      "address1": "47 Larkspur Lane",
+      "city": "Twisp",
+      "state": "WA",
+      "zip": "98856",
+      "country": "US"
+    },
+    "ship_to": [
+      "US",
+      "CA"
+    ],
+    "shipping": {
+      "name": "Standard shipping",
+      "price": 9,
+      "free_over": 150
+    },
+    "voice": "Quiet, plain and outdoors: short sentences that start from the place and the weather, then the gear. Specific about fabric, weight and fit; honest about limits. Calm, a little dry, never macho, no hype words, no exclamation marks. US spelling.",
+    "story": "Fellreach started in 2017 in a former feed store in a small mountain town on the dry side of the Cascades. A ski patroller and a sailmaker wanted shells, wool and packs that could take a decade of weather and still be fixed at a bench. They test everything on the ridges above town and on the outer coast, keep a small range, and repair what they sell, for life.",
+    "policies": {
+      "refund": "<p>Return anything unworn, with its tags, within 60 days of delivery for a full refund to the original payment method. If something fails in use because of how we made it, we repair it, replace it or refund it, for as long as you own it. Returns in the US are free with the label in your order email; returns from Canada are at your cost. Start a return or a claim at hello@fellreach.example with your order number.</p>",
+      "shipping": "<p>Orders ship from our warehouse in Twisp, Washington, within two business days. Standard shipping is $9 to the US and Canada and free on orders over $150. US orders usually arrive in 3 to 6 business days, Canadian orders in 5 to 10. Canadian orders may owe duties and taxes on delivery. You get a tracking link by email when your parcel leaves.</p>",
+      "privacy": "<p>We keep what we need to run the shop: your name, email, shipping address, order history and, if you send us gear, your repair records. Payments are handled by our payment provider; we never see or store your card number. We never sell your data. Our newsletter is opt-in and every email has an unsubscribe link. To see or delete what we hold about you, write to hello@fellreach.example.</p>",
+      "terms": "<p>Prices are in US dollars, before taxes and duties. Colors can look a little different on screen than outdoors. We may cancel an order if a price was listed in error, and we refund it in full if we do. Outdoor gear helps, but it does not replace judgment: check the forecast and know your route. These terms are governed by the laws of the State of Washington.</p>"
+    }
+  },
+  "art_direction": "Fellreach, a quiet outdoor apparel and gear brand whose shop is led by large photographs. Realistic photography only, never illustration or 3D. LIGHT AND MOOD: natural light only, overcast, first light or dusk; moody mountain ridges, misty valleys, larch forests, alpine lakes and a wild, foggy northern coast with dark rocks and pebble beaches; calm, wide and still, with generous empty sky or water. PALETTE: muted earth tones (slate gray, moss, peat brown, stone, sand, deep spruce green, fog white) with one warm ochre accent; deep shadows that sit well on a near-black green page; slightly desaturated, fine film grain, 35mm or 50mm lens. PEOPLE: invented adults seen from behind, far away or small in the landscape, never a recognizable face, never posing for the camera. PRODUCT SHOTS: the item alone, centered with space around it in a tall frame, on weathered dark granite, gray driftwood or a rough slate wall with a wooden peg, soft side light, true-to-life matte fabrics and visible texture, or worn outdoors in the landscape. ALWAYS AVOID: any text, letters, numbers, logos, brand marks, labels, tags or patches with marks, readable signs, watermarks; bright saturated colors; studio seamless backdrops; selfies.",
+  "attributes": [
+    {
+      "id": "activity",
+      "name": "Activity",
+      "type": "checkbox",
+      "visible": true,
+      "filterable": true,
+      "values": [
+        "Hiking",
+        "Backpacking",
+        "Ski touring",
+        "Climbing",
+        "Camp",
+        "Coast",
+        "Everyday"
+      ]
+    },
+    {
+      "id": "material",
+      "name": "Material",
+      "type": "select",
+      "visible": true,
+      "filterable": true,
+      "values": [
+        "Recycled nylon",
+        "Recycled polyester",
+        "Merino wool",
+        "Wool",
+        "Goose down",
+        "Waxed cotton",
+        "Enameled steel"
+      ]
+    },
+    {
+      "id": "warmth",
+      "name": "Warmth",
+      "type": "select",
+      "visible": true,
+      "filterable": true,
+      "values": [
+        "Shell",
+        "Light",
+        "Mid",
+        "Warm",
+        "Warmest"
+      ]
+    },
+    {
+      "id": "fit",
+      "name": "Fit",
+      "type": "select",
+      "visible": true,
+      "filterable": true,
+      "values": [
+        "Next to skin",
+        "Trim",
+        "Regular",
+        "Relaxed"
+      ]
+    },
+    {
+      "id": "capacity",
+      "name": "Capacity",
+      "type": "text",
+      "visible": true,
+      "filterable": false,
+      "values": []
+    },
+    {
+      "id": "waterproofing",
+      "name": "Waterproofing",
+      "type": "text",
+      "visible": true,
+      "filterable": false,
+      "values": []
+    },
+    {
+      "id": "weight",
+      "name": "Weight",
+      "type": "text",
+      "visible": true,
+      "filterable": false,
+      "values": []
+    },
+    {
+      "id": "made_in",
+      "name": "Made in",
+      "type": "text",
+      "visible": true,
+      "filterable": false,
+      "values": []
+    }
+  ],
+  "categories": [
+    {
+      "slug": "jackets",
+      "name": "Jackets",
+      "parent": null,
+      "description": "Shells for rain and wind, down and synthetic insulation for the cold half of the day.",
+      "image": {
+        "prompt": "A lone invented hiker in a slate-gray shell jacket, seen from behind and small in the center of the frame, crossing an exposed rocky ridge in wind-driven mist, layered dark ridgelines fading into cloud on both sides, the horizon across the middle of the frame.",
+        "alt": "A hiker in a gray shell crossing a misty ridge",
+        "size": "1536x1024"
+      }
+    },
+    {
+      "slug": "fleece-mid-layers",
+      "name": "Fleece & Mid Layers",
+      "parent": null,
+      "description": "Grid fleece, deep pile and wool: the layers you live in between the base and the shell.",
+      "image": {
+        "prompt": "A still alpine lake in autumn ringed by golden larch trees, low mist on the water, an invented person in an ochre fleece standing small at the far shoreline seen from behind, dark granite peaks above, the horizon across the middle of the frame.",
+        "alt": "Golden larches around a misty lake, a figure in an ochre fleece on the shore",
+        "size": "1536x1024"
+      }
+    },
+    {
+      "slug": "base-layers",
+      "name": "Base Layers",
+      "parent": null,
+      "description": "Merino next to the skin: warm when you stop, cool when you move, fine to wear for days.",
+      "image": {
+        "from_product": "merino-200-crew"
+      }
+    },
+    {
+      "slug": "trail-pants",
+      "name": "Trail Pants",
+      "parent": null,
+      "description": "Stretch trail pants and softshells, made for granite, scree and long switchbacks.",
+      "image": {
+        "prompt": "A narrow trail switchbacking up a steep green-and-stone mountainside under low cloud, two invented hikers small in the center of the frame seen from behind, a deep valley falling away to one side, the horizon across the middle of the frame.",
+        "alt": "Two hikers on a switchback trail under low cloud",
+        "size": "1536x1024"
+      }
+    },
+    {
+      "slug": "hats-gloves",
+      "name": "Hats & Gloves",
+      "parent": null,
+      "description": "Wool beanies, waxed caps, liners and mitts for the ends of the day.",
+      "image": {
+        "from_product": "fell-ribbed-beanie"
+      }
+    },
+    {
+      "slug": "packs-bags",
+      "name": "Packs & Bags",
+      "parent": null,
+      "description": "Day packs, overnight packs and duffels that carry well and can be repaired.",
+      "image": {
+        "prompt": "A vast high plateau of rock and tundra under a heavy sky, a single invented backpacker with a moss-green pack walking away from the camera in the center of the frame, distant snow-streaked peaks along the horizon across the middle of the frame.",
+        "alt": "A backpacker walking across a high plateau toward distant peaks",
+        "size": "1536x1024"
+      }
+    },
+    {
+      "slug": "camp",
+      "name": "Camp",
+      "parent": null,
+      "description": "Mugs and wool for the slow hours at camp.",
+      "image": {
+        "prompt": "A small dark green tent pitched on a grassy bench above a foggy northern coastline at blue hour, a faint warm glow inside the tent, an enamel mug on a rock in the foreground, sea stacks fading into fog, the horizon across the middle of the frame.",
+        "alt": "A tent glowing above a foggy coast at blue hour",
+        "size": "1536x1024"
+      }
+    }
+  ],
+  "products": [
+    {
+      "slug": "headwall-shell-jacket",
+      "name": "Headwall 3L Shell Jacket",
+      "description_html": "<p>Our most-used shell: three layers, fully taped and cut to move, for days when the forecast changes its mind three times before lunch.</p><h3>Features</h3><ul><li>Helmet-compatible hood with a laminated brim and one-hand adjusters</li><li>Two-way front zip and long pit zips for dumping heat on the climb</li><li>Two chest pockets that clear a pack hip belt and a harness</li><li>Articulated sleeves that stay put at the wrist when you reach</li></ul><h3>Materials</h3><p>Three-layer recycled nylon face with a waterproof, breathable membrane (20,000 mm) and a PFC-free water-repellent finish. 15.2 oz in a men's medium.</p><h3>Fit</h3><p>Regular fit with room for a fleece and a light insulated layer underneath. Hem drops a little at the back.</p><h3>Care</h3><p>Machine wash warm with a technical wash, close every zip first. Tumble dry low to refresh the water-repellent finish. Repairs for life at our workshop.</p>",
+      "price": 385,
+      "sale_price": null,
+      "categories": [
+        "jackets"
+      ],
+      "tags": [
+        "shell",
+        "waterproof",
+        "bestseller"
+      ],
+      "attributes": {
+        "activity": [
+          "Hiking",
+          "Backpacking",
+          "Ski touring",
+          "Climbing"
+        ],
+        "material": "Recycled nylon",
+        "warmth": "Shell",
+        "fit": "Regular",
+        "waterproofing": "20,000 mm, fully taped",
+        "weight": "15.2 oz (M)",
+        "made_in": "Vietnam"
+      },
+      "options": [
+        {
+          "name": "Color",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Slate",
+              "price": 0,
+              "color": "#4a5560"
+            },
+            {
+              "name": "Moss",
+              "price": 0,
+              "color": "#5d6b4c"
+            },
+            {
+              "name": "Ochre",
+              "price": 0,
+              "color": "#b9822f"
+            }
+          ]
+        },
+        {
+          "name": "Size",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "XS",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "S",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "M",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "L",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "XL",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "XXL",
+              "price": 0,
+              "color": null
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 60,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "ridgeback-merino-quarter-zip",
+        "switchback-trail-pant",
+        "traverse-28-daypack"
+      ],
+      "cross_sells": [
+        {
+          "product": "fell-ribbed-beanie",
+          "discount_percent": null
+        },
+        {
+          "product": "merino-liner-gloves",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "A slate-gray three-layer waterproof shell jacket with an adjustable hood and long pit zips, zipped, laid out flat and squared on a weathered dark granite slab, soft overcast daylight from the left, gentle shadow, seen from above, the whole jacket in frame with space around it.",
+          "alt": "Headwall 3L Shell Jacket in slate, laid flat on dark granite",
+          "size": "1024x1536"
+        },
+        {
+          "prompt": "An invented hiker seen from behind, small in the frame, wearing a slate-gray shell jacket with the hood up and a dark pack, standing on an exposed rocky ridge in wind-driven mist, a dark lake far below, cold blue-gray light.",
+          "alt": "Headwall shell in slate, worn on a misty ridge, seen from behind",
+          "size": "1024x1536"
+        }
+      ],
+      "theme_template": null,
+      "variant_stock": [
+        {
+          "values": {
+            "Color": "Ochre",
+            "Size": "XS"
+          },
+          "level": 0
+        }
+      ]
+    },
+    {
+      "slug": "squall-packable-rain-jacket",
+      "name": "Squall Packable Rain Jacket",
+      "description_html": "<p>A light rain shell that lives at the bottom of the pack until the sky turns. It stuffs into its own chest pocket, about the size of a grapefruit.</p><h3>Features</h3><ul><li>Packs into its own chest pocket, with a clip loop</li><li>Adjustable hood that turns with your head</li><li>Elastic cuffs and a drawcord hem</li><li>Two zipped hand pockets</li></ul><h3>Materials</h3><p>2.5-layer recycled nylon ripstop with a waterproof, breathable coating (10,000 mm), seams taped, PFC-free finish. 8.9 oz in a medium.</p><h3>Fit</h3><p>Trim to regular: over a base layer or a thin fleece, not a puffy.</p><h3>Care</h3><p>Machine wash warm, tumble dry low. Store it unpacked at home so the coating lasts.</p>",
+      "price": 195,
+      "sale_price": 156,
+      "categories": [
+        "jackets"
+      ],
+      "tags": [
+        "rain",
+        "packable",
+        "sale"
+      ],
+      "attributes": {
+        "activity": [
+          "Hiking",
+          "Backpacking",
+          "Everyday"
+        ],
+        "material": "Recycled nylon",
+        "warmth": "Shell",
+        "fit": "Regular",
+        "waterproofing": "10,000 mm, taped seams",
+        "weight": "8.9 oz (M)",
+        "made_in": "Vietnam"
+      },
+      "options": [
+        {
+          "name": "Color",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Black Spruce",
+              "price": 0,
+              "color": "#25302b"
+            },
+            {
+              "name": "Fjord Blue",
+              "price": 0,
+              "color": "#3e5566"
+            }
+          ]
+        },
+        {
+          "name": "Size",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "S",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "M",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "L",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "XL",
+              "price": 0,
+              "color": null
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 34,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "merino-150-trail-tee",
+        "ridgeline-hip-pack",
+        "switchback-trail-pant"
+      ],
+      "cross_sells": [
+        {
+          "product": "corrie-waxed-cap",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "A deep spruce-green, almost black, lightweight packable rain jacket with a slim hood, hung by its hood hanging from a turned wooden peg on a rough dark slate wall, soft side light from a window on the left, the jacket stuffed pocket beside it on a small stone ledge.",
+          "alt": "Squall Packable Rain Jacket in black spruce, hanging on a wooden peg",
+          "size": "1024x1536"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "cairn-down-jacket",
+      "name": "Cairn Down Jacket",
+      "description_html": "<p>The jacket for the cold half of the day: camp at dusk, belays in the wind, the first hour before the sun clears the ridge.</p><h3>Features</h3><ul><li>Box-wall baffles across the core, so no cold spots at the seams</li><li>Insulated hood that fits over a beanie</li><li>Two fleece-lined hand pockets and one inside stash pocket</li><li>Packs into its own stuff sack, included</li></ul><h3>Materials</h3><p>800-fill traceable goose down under a 20-denier recycled nylon shell with a water-repellent finish. 14 oz of jacket, 5.6 oz of down in a medium.</p><h3>Fit</h3><p>Regular fit, slightly longer at the back. Wear it over everything, or under a shell when the weather turns wet.</p><h3>Care</h3><p>Machine wash cold on a gentle cycle with a down wash. Tumble dry low with two clean tennis balls until fully dry; it takes a while.</p>",
+      "price": 325,
+      "sale_price": null,
+      "categories": [
+        "jackets"
+      ],
+      "tags": [
+        "down",
+        "insulated",
+        "new"
+      ],
+      "attributes": {
+        "activity": [
+          "Backpacking",
+          "Camp",
+          "Ski touring",
+          "Climbing"
+        ],
+        "material": "Goose down",
+        "warmth": "Warmest",
+        "fit": "Regular",
+        "weight": "14 oz (M)",
+        "made_in": "Vietnam"
+      },
+      "options": [
+        {
+          "name": "Color",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Charcoal",
+              "price": 0,
+              "color": "#3a3b3a"
+            },
+            {
+              "name": "Rust",
+              "price": 0,
+              "color": "#9a4f2c"
+            }
+          ]
+        },
+        {
+          "name": "Size",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "S",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "M",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "L",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "XL",
+              "price": 0,
+              "color": null
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 28,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "merino-200-crew",
+        "summit-insulated-mitts",
+        "fell-ribbed-beanie"
+      ],
+      "cross_sells": [
+        {
+          "product": "enamel-camp-mug",
+          "discount_percent": null
+        },
+        {
+          "product": "wool-camp-blanket",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "A charcoal-gray hooded goose-down jacket with horizontal box baffles, zipped and gently lofted, laid on a weathered dark granite slab, soft overcast daylight from the left, gentle shadow, seen from above, the whole jacket in frame.",
+          "alt": "Cairn Down Jacket in charcoal, lofted on dark granite",
+          "size": "1024x1536"
+        },
+        {
+          "prompt": "At dusk on a high alpine bench, an invented person seen from behind and at a distance, wearing a rust-colored down jacket with the hood up, sitting on a boulder beside a small orange-lit tent, a jagged ridgeline in deep blue shadow beyond.",
+          "alt": "Cairn Down Jacket in rust, worn at camp at dusk, seen from behind",
+          "size": "1024x1536"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "larch-insulated-hoodie",
+      "name": "Larch Insulated Hoodie",
+      "description_html": "<p>Synthetic insulation that keeps working when it is damp, in a hoodie you can climb, hike and ski in all day.</p><h3>Features</h3><ul><li>Stretch side panels that let the jacket breathe on the move</li><li>Under-the-helmet hood with a soft brushed lining</li><li>Two zipped hand pockets and a chest pocket</li><li>Thumb loops in the cuffs</li></ul><h3>Materials</h3><p>60 g/m² recycled synthetic insulation in a recycled polyester shell with a water-repellent finish; stretch fleece side panels. 13 oz in a medium.</p><h3>Fit</h3><p>Trim, active fit. Size up if you want it over a thick fleece.</p><h3>Care</h3><p>Machine wash warm, tumble dry low. No fabric softener.</p>",
+      "price": 245,
+      "sale_price": null,
+      "categories": [
+        "jackets"
+      ],
+      "tags": [
+        "insulated",
+        "synthetic"
+      ],
+      "attributes": {
+        "activity": [
+          "Ski touring",
+          "Climbing",
+          "Hiking"
+        ],
+        "material": "Recycled polyester",
+        "warmth": "Warm",
+        "fit": "Trim",
+        "weight": "13 oz (M)",
+        "made_in": "Vietnam"
+      },
+      "options": [
+        {
+          "name": "Color",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Moss",
+              "price": 0,
+              "color": "#5d6b4c"
+            },
+            {
+              "name": "Sand",
+              "price": 0,
+              "color": "#c9b896"
+            }
+          ]
+        },
+        {
+          "name": "Size",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "S",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "M",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "L",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "XL",
+              "price": 0,
+              "color": null
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 30,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "headwall-shell-jacket",
+        "merino-200-crew",
+        "scree-softshell-pant"
+      ],
+      "cross_sells": [
+        {
+          "product": "merino-liner-gloves",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "A moss-green synthetic insulated hoodie with quilted body panels and smooth stretch side panels, laid flat on a gray, sun-bleached driftwood plank, soft overcast daylight from the left, gentle shadow, seen from above, the whole hoodie in frame.",
+          "alt": "Larch Insulated Hoodie in moss, laid flat on driftwood",
+          "size": "1024x1536"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "driftline-waxed-field-jacket",
+      "name": "Driftline Waxed Field Jacket",
+      "description_html": "<p>A waxed cotton jacket for wet towns, foggy beaches and the walk to the trailhead. It darkens and softens with every season. This run has sold out; the next comes in spring.</p><h3>Features</h3><ul><li>Corduroy-lined collar with a throat tab</li><li>Four front pockets, two of them hand-warmers lined in brushed cotton</li><li>Two-way brass zip under a snap storm flap</li><li>Re-waxable: we sell the wax and will do it for you</li></ul><h3>Materials</h3><p>8 oz waxed organic cotton canvas, lined in brushed cotton twill.</p><h3>Fit</h3><p>Relaxed fit, hip length. Roomy enough for a sweater underneath.</p><h3>Care</h3><p>Do not wash. Sponge clean with cold water. Re-wax once a year, or send it to us.</p>",
+      "price": 295,
+      "sale_price": null,
+      "categories": [
+        "jackets"
+      ],
+      "tags": [
+        "waxed",
+        "sold-out"
+      ],
+      "attributes": {
+        "activity": [
+          "Coast",
+          "Everyday"
+        ],
+        "material": "Waxed cotton",
+        "warmth": "Light",
+        "fit": "Relaxed",
+        "weight": "2 lb 6 oz (M)",
+        "made_in": "Portugal"
+      },
+      "options": [
+        {
+          "name": "Color",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Tobacco",
+              "price": 0,
+              "color": "#6b4f33"
+            },
+            {
+              "name": "Black Spruce",
+              "price": 0,
+              "color": "#25302b"
+            }
+          ]
+        },
+        {
+          "name": "Size",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "S",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "M",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "L",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "XL",
+              "price": 0,
+              "color": null
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 0,
+        "status": "out_of_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "shieling-wool-sweater",
+        "corrie-waxed-cap",
+        "rolltop-duffel-40"
+      ],
+      "cross_sells": [
+        {
+          "product": "fell-ribbed-beanie",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "A tobacco-brown waxed cotton field jacket with a corduroy collar, four flap pockets and a snap storm flap, the waxed fabric showing soft creases and sheen, hung hanging from a turned wooden peg on a rough dark slate wall, soft side light from a window on the left.",
+          "alt": "Driftline Waxed Field Jacket in tobacco, hanging on a wooden peg",
+          "size": "1024x1536"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "tarn-grid-fleece-hoodie",
+      "name": "Tarn Grid Fleece Hoodie",
+      "description_html": "<p>A grid fleece that breathes on the climb and still holds warmth when you stop. Our most-worn layer, from spring snow to late-autumn coast.</p><h3>Features</h3><ul><li>Close-fitting hood that fits under a helmet</li><li>Half-length chest zip for venting</li><li>Thumb loops and a zipped chest pocket</li><li>Flatlock seams that sit flat under a pack</li></ul><h3>Materials</h3><p>Recycled polyester grid fleece, 7 oz per square yard: the channels trap warm air and let sweat out.</p><h3>Fit</h3><p>Trim fit, a little longer in the back. Layers under any shell.</p><h3>Care</h3><p>Machine wash cold, hang dry. Wash with a garment bag to cut microfiber shedding.</p>",
+      "price": 135,
+      "sale_price": null,
+      "categories": [
+        "fleece-mid-layers"
+      ],
+      "tags": [
+        "fleece",
+        "bestseller",
+        "new"
+      ],
+      "attributes": {
+        "activity": [
+          "Hiking",
+          "Ski touring",
+          "Climbing",
+          "Everyday"
+        ],
+        "material": "Recycled polyester",
+        "warmth": "Mid",
+        "fit": "Trim",
+        "weight": "11 oz (M)",
+        "made_in": "Portugal"
+      },
+      "options": [
+        {
+          "name": "Color",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Heather Gray",
+              "price": 0,
+              "color": "#8d8f8c"
+            },
+            {
+              "name": "Lichen",
+              "price": 0,
+              "color": "#a3a585"
+            },
+            {
+              "name": "Ochre",
+              "price": 0,
+              "color": "#b9822f"
+            }
+          ]
+        },
+        {
+          "name": "Size",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "S",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "M",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "L",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "XL",
+              "price": 0,
+              "color": null
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 45,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "headwall-shell-jacket",
+        "switchback-trail-pant",
+        "fell-ribbed-beanie"
+      ],
+      "cross_sells": [
+        {
+          "product": "ridgeline-hip-pack",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "A heather-gray grid fleece hoodie with a half-length zip and a fitted hood, the square grid texture visible, laid flat on a weathered dark granite slab, soft overcast daylight from the left, gentle shadow, seen from above.",
+          "alt": "Tarn Grid Fleece Hoodie in heather gray, laid flat on granite",
+          "size": "1024x1536"
+        },
+        {
+          "prompt": "An invented person seen from behind, walking away along a pebble beach under low cloud, wearing an ochre grid fleece hoodie with the hood down and dark trail pants, dark headlands and gray sea beyond.",
+          "alt": "Tarn fleece in ochre, worn on a gray pebble beach, seen from behind",
+          "size": "1024x1536"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "bothy-high-pile-fleece",
+      "name": "Bothy High-Pile Fleece Jacket",
+      "description_html": "<p>A deep-pile fleece jacket that feels like sitting by the stove. Made for camp mornings, hut evenings and the drive home.</p><h3>Features</h3><ul><li>Full zip with a soft chin guard</li><li>Two zipped hand pockets with nylon trim</li><li>Nylon yoke on the shoulders against pack straps</li><li>Stand-up collar</li></ul><h3>Materials</h3><p>Recycled polyester high-pile fleece with a recycled nylon trim.</p><h3>Fit</h3><p>Relaxed fit. Take your usual size; size down for a closer fit.</p><h3>Care</h3><p>Machine wash cold, hang dry. Brush the pile with your hand while it is damp to fluff it back.</p>",
+      "price": 165,
+      "sale_price": null,
+      "categories": [
+        "fleece-mid-layers"
+      ],
+      "tags": [
+        "fleece",
+        "camp"
+      ],
+      "attributes": {
+        "activity": [
+          "Camp",
+          "Everyday"
+        ],
+        "material": "Recycled polyester",
+        "warmth": "Warm",
+        "fit": "Relaxed",
+        "weight": "1 lb 2 oz (M)",
+        "made_in": "Portugal"
+      },
+      "options": [
+        {
+          "name": "Color",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Oat",
+              "price": 0,
+              "color": "#d8cdb6"
+            },
+            {
+              "name": "Peat",
+              "price": 0,
+              "color": "#4b3d30"
+            }
+          ]
+        },
+        {
+          "name": "Size",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "XS",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "S",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "M",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "L",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "XL",
+              "price": 0,
+              "color": null
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 26,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "wool-camp-blanket",
+        "enamel-camp-mug",
+        "fell-ribbed-beanie"
+      ],
+      "cross_sells": [
+        {
+          "product": "merino-200-crew",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "An oat-colored high-pile fleece jacket with dark peat nylon trim on the pockets and shoulders, full zip, hung hanging from a turned wooden peg on a rough dark slate wall, soft side light from a window on the left, the deep pile catching the light.",
+          "alt": "Bothy High-Pile Fleece Jacket in oat, hanging on a wooden peg",
+          "size": "1024x1536"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "ridgeback-merino-quarter-zip",
+      "name": "Ridgeback Merino Quarter-Zip",
+      "description_html": "<p>Midweight merino with a quarter zip: warm enough to wear alone on a cool morning, thin enough to go under a shell all day.</p><h3>Features</h3><ul><li>Quarter zip with a zip garage at the chin</li><li>Raglan sleeves so pack straps never sit on a seam</li><li>Thumb loops</li><li>Naturally odor-resistant for multi-day trips</li></ul><h3>Materials</h3><p>260 g/m² merino wool interlock, from mulesing-free farms.</p><h3>Fit</h3><p>Trim fit, close to the body without clinging.</p><h3>Care</h3><p>Machine wash cold on a wool cycle, lay flat to dry. No bleach, no softener.</p>",
+      "price": 145,
+      "sale_price": 116,
+      "categories": [
+        "fleece-mid-layers",
+        "base-layers"
+      ],
+      "tags": [
+        "merino",
+        "sale"
+      ],
+      "attributes": {
+        "activity": [
+          "Hiking",
+          "Ski touring",
+          "Backpacking"
+        ],
+        "material": "Merino wool",
+        "warmth": "Mid",
+        "fit": "Trim",
+        "weight": "10 oz (M)",
+        "made_in": "Portugal"
+      },
+      "options": [
+        {
+          "name": "Color",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Slate",
+              "price": 0,
+              "color": "#4a5560"
+            },
+            {
+              "name": "Rust",
+              "price": 0,
+              "color": "#9a4f2c"
+            }
+          ]
+        },
+        {
+          "name": "Size",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "S",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "M",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "L",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "XL",
+              "price": 0,
+              "color": null
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 32,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "headwall-shell-jacket",
+        "merino-200-bottoms",
+        "fell-ribbed-beanie"
+      ],
+      "cross_sells": [
+        {
+          "product": "merino-liner-gloves",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "A rust-red merino wool quarter-zip top with raglan sleeves, folded neatly with the collar zipped, on a gray, sun-bleached driftwood plank, soft overcast daylight from the left, gentle shadow, seen from above.",
+          "alt": "Ridgeback Merino Quarter-Zip in rust, folded on driftwood",
+          "size": "1024x1536"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "shieling-wool-sweater",
+      "name": "Shieling Wool Crew",
+      "description_html": "<p>A heavy wool crew in an old-fashioned rib, knitted to wear for twenty winters. Lanolin left in, so it shrugs off a light drizzle.</p><h3>Features</h3><ul><li>Saddle shoulders and a deep ribbed hem</li><li>Reinforced elbows knitted in</li><li>Unbleached, undyed wool in Natural</li><li>Spare yarn included for darning</li></ul><h3>Materials</h3><p>100% wool, spun with some of its lanolin left in. Knitted in a small mill in Portugal.</p><h3>Fit</h3><p>Relaxed fit with a slightly cropped body that sits well over trail pants.</p><h3>Care</h3><p>Hand wash cold with wool wash, or air it outside instead of washing. Dry flat. Darn holes early.</p>",
+      "price": 175,
+      "sale_price": null,
+      "categories": [
+        "fleece-mid-layers"
+      ],
+      "tags": [
+        "wool",
+        "knit",
+        "new"
+      ],
+      "attributes": {
+        "activity": [
+          "Camp",
+          "Coast",
+          "Everyday"
+        ],
+        "material": "Wool",
+        "warmth": "Warm",
+        "fit": "Relaxed",
+        "weight": "1 lb 9 oz (M)",
+        "made_in": "Portugal"
+      },
+      "options": [
+        {
+          "name": "Color",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Natural",
+              "price": 0,
+              "color": "#e3dccb"
+            },
+            {
+              "name": "Charcoal",
+              "price": 0,
+              "color": "#3a3b3a"
+            }
+          ]
+        },
+        {
+          "name": "Size",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "S",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "M",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "L",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "XL",
+              "price": 0,
+              "color": null
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 22,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "driftline-waxed-field-jacket",
+        "corrie-waxed-cap",
+        "wool-camp-blanket"
+      ],
+      "cross_sells": [
+        {
+          "product": "enamel-camp-mug",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "A thick undyed natural-cream ribbed wool crewneck sweater, folded neatly on a weathered dark granite slab, soft overcast daylight from the left, gentle shadow, the heavy rib texture and loose fibers visible, seen from above.",
+          "alt": "Shieling Wool Crew in natural, folded on dark granite",
+          "size": "1024x1536"
+        }
+      ],
+      "theme_template": null,
+      "variant_stock": [
+        {
+          "values": {
+            "Color": "Natural",
+            "Size": "S"
+          },
+          "level": 0
+        }
+      ]
+    },
+    {
+      "slug": "merino-200-crew",
+      "name": "Merino 200 Crew",
+      "description_html": "<p>The base layer we pack for every trip, every season. Warm when you stop, cool when you move, and fine to wear four days running.</p><h3>Features</h3><ul><li>Flatlock seams that never rub under a pack</li><li>Offset shoulder seams</li><li>Longer back hem that stays tucked</li><li>Naturally odor-resistant</li></ul><h3>Materials</h3><p>200 g/m² merino wool jersey with a nylon core for strength, from mulesing-free farms.</p><h3>Fit</h3><p>Next-to-skin fit. Take your usual size.</p><h3>Care</h3><p>Machine wash cold on a wool cycle, dry flat. It will last longer if you skip the dryer.</p>",
+      "price": 95,
+      "sale_price": null,
+      "categories": [
+        "base-layers"
+      ],
+      "tags": [
+        "merino",
+        "base layer",
+        "bestseller"
+      ],
+      "attributes": {
+        "activity": [
+          "Hiking",
+          "Backpacking",
+          "Ski touring",
+          "Climbing"
+        ],
+        "material": "Merino wool",
+        "warmth": "Light",
+        "fit": "Next to skin",
+        "weight": "6.4 oz (M)",
+        "made_in": "Portugal"
+      },
+      "options": [
+        {
+          "name": "Color",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Black Spruce",
+              "price": 0,
+              "color": "#25302b"
+            },
+            {
+              "name": "Heather Gray",
+              "price": 0,
+              "color": "#8d8f8c"
+            }
+          ]
+        },
+        {
+          "name": "Size",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "XS",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "S",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "M",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "L",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "XL",
+              "price": 0,
+              "color": null
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 70,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "merino-200-bottoms",
+        "ridgeback-merino-quarter-zip",
+        "cairn-down-jacket"
+      ],
+      "cross_sells": [
+        {
+          "product": "merino-liner-gloves",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "A deep spruce-green merino wool long-sleeve crew base layer, folded neatly with the sleeves crossed on a gray, sun-bleached driftwood plank, soft overcast daylight from the left, gentle shadow, a fine knit texture visible, seen from above.",
+          "alt": "Merino 200 Crew in black spruce, folded on driftwood",
+          "size": "1024x1536"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "merino-200-bottoms",
+      "name": "Merino 200 Bottoms",
+      "description_html": "<p>Merino long underwear for cold nights in the bag and long days on skis.</p><h3>Features</h3><ul><li>Soft wide waistband that sits flat under a hip belt</li><li>Gusseted crotch</li><li>Ankle cuffs that stay under socks</li><li>Fly-free front</li></ul><h3>Materials</h3><p>200 g/m² merino wool jersey with a nylon core, from mulesing-free farms.</p><h3>Fit</h3><p>Next-to-skin fit, full length.</p><h3>Care</h3><p>Machine wash cold on a wool cycle, dry flat.</p>",
+      "price": 85,
+      "sale_price": null,
+      "categories": [
+        "base-layers"
+      ],
+      "tags": [
+        "merino",
+        "bottoms"
+      ],
+      "attributes": {
+        "activity": [
+          "Backpacking",
+          "Ski touring",
+          "Camp"
+        ],
+        "material": "Merino wool",
+        "warmth": "Light",
+        "fit": "Next to skin",
+        "weight": "5.8 oz (M)",
+        "made_in": "Portugal"
+      },
+      "options": [
+        {
+          "name": "Size",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "XS",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "S",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "M",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "L",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "XL",
+              "price": 0,
+              "color": null
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 40,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "merino-200-crew",
+        "scree-softshell-pant"
+      ],
+      "cross_sells": [
+        {
+          "product": "summit-insulated-mitts",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "A pair of deep spruce-green merino wool base layer leggings, folded once lengthwise on a weathered dark granite slab, soft overcast daylight from the left, gentle shadow, seen from above.",
+          "alt": "Merino 200 Bottoms in black spruce, folded on granite",
+          "size": "1024x1536"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "merino-150-trail-tee",
+      "name": "Merino 150 Trail Tee",
+      "description_html": "<p>A light merino tee for warm climbs and long drives home. It dries quickly and does not smell after a week.</p><h3>Features</h3><ul><li>Raglan sleeves for pack straps</li><li>Slightly dropped back hem</li><li>Tag-free neck</li></ul><h3>Materials</h3><p>150 g/m² merino wool and Tencel blend, light and fast drying.</p><h3>Fit</h3><p>Regular fit, not boxy.</p><h3>Care</h3><p>Machine wash cold, hang dry.</p>",
+      "price": 68,
+      "sale_price": null,
+      "categories": [
+        "base-layers"
+      ],
+      "tags": [
+        "merino",
+        "tee"
+      ],
+      "attributes": {
+        "activity": [
+          "Hiking",
+          "Everyday",
+          "Coast"
+        ],
+        "material": "Merino wool",
+        "warmth": "Light",
+        "fit": "Regular",
+        "weight": "4.2 oz (M)",
+        "made_in": "Portugal"
+      },
+      "options": [
+        {
+          "name": "Color",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Sand",
+              "price": 0,
+              "color": "#c9b896"
+            },
+            {
+              "name": "Slate",
+              "price": 0,
+              "color": "#4a5560"
+            },
+            {
+              "name": "Lichen",
+              "price": 0,
+              "color": "#a3a585"
+            }
+          ]
+        },
+        {
+          "name": "Size",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "S",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "M",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "L",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "XL",
+              "price": 0,
+              "color": null
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 55,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "switchback-trail-pant",
+        "ridgeline-hip-pack",
+        "squall-packable-rain-jacket"
+      ],
+      "cross_sells": [
+        {
+          "product": "corrie-waxed-cap",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "A sand-colored short-sleeved merino wool t-shirt, folded neatly on a gray, sun-bleached driftwood plank, soft overcast daylight from the left, gentle shadow, a few small smooth beach pebbles beside it, seen from above.",
+          "alt": "Merino 150 Trail Tee in sand, folded on driftwood",
+          "size": "1024x1536"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "switchback-trail-pant",
+      "name": "Switchback Trail Pant",
+      "description_html": "<p>Our everyday hiking pant: stretchy, quick to dry and tough enough for granite slabs and bushwhacks.</p><h3>Features</h3><ul><li>Four-way stretch with a gusseted crotch</li><li>Two zipped thigh pockets that clear a hip belt</li><li>Drawcord hem cuffs</li><li>Low-profile waistband with a belt</li></ul><h3>Materials</h3><p>Recycled nylon and elastane stretch woven with a PFC-free water-repellent finish.</p><h3>Fit</h3><p>Regular fit, slightly tapered. 32 in inseam; hem them at the workshop for free.</p><h3>Care</h3><p>Machine wash cold, hang dry.</p>",
+      "price": 120,
+      "sale_price": null,
+      "categories": [
+        "trail-pants"
+      ],
+      "tags": [
+        "pants",
+        "bestseller"
+      ],
+      "attributes": {
+        "activity": [
+          "Hiking",
+          "Backpacking",
+          "Climbing"
+        ],
+        "material": "Recycled nylon",
+        "warmth": "Light",
+        "fit": "Regular",
+        "weight": "11.5 oz (32)",
+        "made_in": "Vietnam"
+      },
+      "options": [
+        {
+          "name": "Color",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Stone",
+              "price": 0,
+              "color": "#a59d8c"
+            },
+            {
+              "name": "Black Spruce",
+              "price": 0,
+              "color": "#25302b"
+            }
+          ]
+        },
+        {
+          "name": "Waist",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "28",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "30",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "32",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "34",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "36",
+              "price": 0,
+              "color": null
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 50,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "tarn-grid-fleece-hoodie",
+        "headwall-shell-jacket",
+        "traverse-28-daypack"
+      ],
+      "cross_sells": [
+        {
+          "product": "merino-150-trail-tee",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "A pair of stone-gray stretch hiking pants with zipped thigh pockets and drawcord hems, folded once and laid on a weathered dark granite slab, soft overcast daylight from the left, gentle shadow, seen from above.",
+          "alt": "Switchback Trail Pant in stone, folded on dark granite",
+          "size": "1024x1536"
+        },
+        {
+          "prompt": "Low wide shot of an invented hiker seen from behind, stone-gray hiking pants and a dark pack, stepping up a granite slab trail through golden larch trees in autumn, mist hanging in the valley below.",
+          "alt": "Switchback Trail Pant in stone, worn on a granite trail, seen from behind",
+          "size": "1024x1536"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "scree-softshell-pant",
+      "name": "Scree Softshell Pant",
+      "description_html": "<p>A brushed-back softshell for cold, windy days on foot or on skis. Warmer than a trail pant, quieter and more comfortable than a hardshell.</p><h3>Features</h3><ul><li>Reinforced inner ankles against crampons and edges</li><li>Thigh vents with mesh backing</li><li>Boot-compatible cuffs with a lace hook</li><li>Two zipped hand pockets and a thigh pocket</li></ul><h3>Materials</h3><p>Recycled nylon double-weave softshell with a brushed back and a PFC-free water-repellent finish.</p><h3>Fit</h3><p>Regular fit, articulated knees. 32 in inseam.</p><h3>Care</h3><p>Machine wash warm, tumble dry low to refresh the finish.</p>",
+      "price": 155,
+      "sale_price": null,
+      "categories": [
+        "trail-pants"
+      ],
+      "tags": [
+        "softshell"
+      ],
+      "attributes": {
+        "activity": [
+          "Ski touring",
+          "Climbing"
+        ],
+        "material": "Recycled nylon",
+        "warmth": "Mid",
+        "fit": "Regular",
+        "weight": "1 lb 1 oz (32)",
+        "made_in": "Vietnam"
+      },
+      "options": [
+        {
+          "name": "Color",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Slate",
+              "price": 0,
+              "color": "#4a5560"
+            },
+            {
+              "name": "Moss",
+              "price": 0,
+              "color": "#5d6b4c"
+            }
+          ]
+        },
+        {
+          "name": "Waist",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "28",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "30",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "32",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "34",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "36",
+              "price": 0,
+              "color": null
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 26,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "larch-insulated-hoodie",
+        "merino-200-bottoms",
+        "summit-insulated-mitts"
+      ],
+      "cross_sells": [
+        {
+          "product": "fell-ribbed-beanie",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "A pair of slate-gray softshell mountain pants with zipped thigh vents and reinforced inner ankles, laid flat on a gray, sun-bleached driftwood plank, soft overcast daylight from the left, gentle shadow, seen from above.",
+          "alt": "Scree Softshell Pant in slate, laid flat on driftwood",
+          "size": "1024x1536"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "fell-ribbed-beanie",
+      "name": "Fell Ribbed Beanie",
+      "description_html": "<p>A deep-cuffed rib beanie knitted from soft wool. It sits on the ears, not on top of the head.</p><h3>Features</h3><ul><li>Deep fold-up cuff</li><li>Soft, non-itch merino blend</li><li>One size, with plenty of stretch</li></ul><h3>Materials</h3><p>70% merino wool, 30% recycled nylon for shape.</p><h3>Fit</h3><p>One size fits most. Wear the cuff folded once or twice.</p><h3>Care</h3><p>Hand wash cold, dry flat.</p>",
+      "price": 38,
+      "sale_price": null,
+      "categories": [
+        "hats-gloves"
+      ],
+      "tags": [
+        "beanie",
+        "bestseller"
+      ],
+      "attributes": {
+        "activity": [
+          "Everyday",
+          "Camp",
+          "Hiking",
+          "Coast"
+        ],
+        "material": "Merino wool",
+        "warmth": "Warm",
+        "weight": "2.6 oz",
+        "made_in": "Portugal"
+      },
+      "options": [
+        {
+          "name": "Color",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Ochre",
+              "price": 0,
+              "color": "#b9822f"
+            },
+            {
+              "name": "Charcoal",
+              "price": 0,
+              "color": "#3a3b3a"
+            },
+            {
+              "name": "Moss",
+              "price": 0,
+              "color": "#5d6b4c"
+            },
+            {
+              "name": "Natural",
+              "price": 0,
+              "color": "#e3dccb"
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 80,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "merino-liner-gloves",
+        "tarn-grid-fleece-hoodie"
+      ],
+      "cross_sells": [
+        {
+          "product": "enamel-camp-mug",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "An ochre-colored deep-cuffed ribbed wool beanie, standing upright with the cuff folded on a weathered dark granite slab, soft overcast daylight from the left, gentle shadow, a few dry larch needles beside it.",
+          "alt": "Fell Ribbed Beanie in ochre on dark granite",
+          "size": "1024x1536"
+        },
+        {
+          "prompt": "An invented person seen from behind on a windswept headland, wearing an ochre ribbed beanie and a dark shell jacket, looking out over a gray, rough sea under heavy cloud, coarse grass in the foreground.",
+          "alt": "Fell Ribbed Beanie in ochre, worn on a windy headland, seen from behind",
+          "size": "1024x1536"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "corrie-waxed-cap",
+      "name": "Corrie Waxed Six-Panel Cap",
+      "description_html": "<p>A soft six-panel cap in waxed cotton that keeps drizzle off the glasses and shapes to your head over time.</p><h3>Features</h3><ul><li>Soft, unstructured crown</li><li>Short pre-curved brim</li><li>Leather strap with a brass buckle at the back</li></ul><h3>Materials</h3><p>Waxed organic cotton canvas with a cotton sweatband.</p><h3>Fit</h3><p>One size, adjustable at the back.</p><h3>Care</h3><p>Do not wash. Wipe clean, re-wax when the fabric stops beading.</p>",
+      "price": 48,
+      "sale_price": null,
+      "categories": [
+        "hats-gloves"
+      ],
+      "tags": [
+        "cap"
+      ],
+      "attributes": {
+        "activity": [
+          "Coast",
+          "Everyday"
+        ],
+        "material": "Waxed cotton",
+        "warmth": "Light",
+        "weight": "3 oz",
+        "made_in": "Portugal"
+      },
+      "options": [
+        {
+          "name": "Color",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Tobacco",
+              "price": 0,
+              "color": "#6b4f33"
+            },
+            {
+              "name": "Black Spruce",
+              "price": 0,
+              "color": "#25302b"
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 36,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "driftline-waxed-field-jacket",
+        "rolltop-duffel-40"
+      ],
+      "cross_sells": [
+        {
+          "product": "fell-ribbed-beanie",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "A tobacco-brown waxed cotton six-panel cap with a short curved brim, three-quarter view, resting on a gray, sun-bleached driftwood plank, soft overcast daylight from the left, gentle shadow, the waxed sheen and soft creases visible.",
+          "alt": "Corrie Waxed Six-Panel Cap in tobacco on driftwood",
+          "size": "1024x1536"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "merino-liner-gloves",
+      "name": "Merino Liner Gloves",
+      "description_html": "<p>Thin merino gloves for cool mornings, under mitts on cold days and for fiddly jobs at camp.</p><h3>Features</h3><ul><li>Touchscreen-friendly fingertips</li><li>Grippy palm print</li><li>Clip loop to keep the pair together</li></ul><h3>Materials</h3><p>Merino wool and nylon blend, 180 g/m².</p><h3>Fit</h3><p>Close fit. Between sizes, size down.</p><h3>Care</h3><p>Machine wash cold in a garment bag, dry flat.</p>",
+      "price": 36,
+      "sale_price": null,
+      "categories": [
+        "hats-gloves"
+      ],
+      "tags": [
+        "gloves"
+      ],
+      "attributes": {
+        "activity": [
+          "Hiking",
+          "Ski touring",
+          "Everyday"
+        ],
+        "material": "Merino wool",
+        "warmth": "Light",
+        "weight": "1.2 oz (M)",
+        "made_in": "Portugal"
+      },
+      "options": [
+        {
+          "name": "Size",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "S",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "M",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "L",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "XL",
+              "price": 0,
+              "color": null
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 48,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "summit-insulated-mitts",
+        "fell-ribbed-beanie"
+      ],
+      "cross_sells": [
+        {
+          "product": "merino-200-crew",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "A pair of thin charcoal-gray merino wool liner gloves laid one over the other on a weathered dark granite slab, soft overcast daylight from the left, gentle shadow, seen from above.",
+          "alt": "Merino Liner Gloves in charcoal on dark granite",
+          "size": "1024x1536"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "summit-insulated-mitts",
+      "name": "Summit Insulated Mitts",
+      "description_html": "<p>Big, warm mitts for the coldest days: belays, ridge walks in January, the last hour of a ski tour.</p><h3>Features</h3><ul><li>Removable fleece liner that dries overnight</li><li>Long gauntlet cuff with a one-hand cinch</li><li>Leather palm and thumb</li><li>Wrist leashes</li></ul><h3>Materials</h3><p>Waterproof recycled nylon shell with a goatskin leather palm, 200 g synthetic insulation, fleece liner.</p><h3>Fit</h3><p>Roomy, to wear over liner gloves.</p><h3>Care</h3><p>Wipe clean. Treat the leather with wax once a season. Dry away from direct heat.</p>",
+      "price": 89,
+      "sale_price": null,
+      "categories": [
+        "hats-gloves"
+      ],
+      "tags": [
+        "mitts"
+      ],
+      "attributes": {
+        "activity": [
+          "Ski touring",
+          "Climbing"
+        ],
+        "material": "Recycled nylon",
+        "warmth": "Warmest",
+        "waterproofing": "Waterproof insert",
+        "weight": "8 oz (M)",
+        "made_in": "Vietnam"
+      },
+      "options": [
+        {
+          "name": "Size",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "S",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "M",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "L",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "XL",
+              "price": 0,
+              "color": null
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 20,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "merino-liner-gloves",
+        "cairn-down-jacket",
+        "scree-softshell-pant"
+      ],
+      "cross_sells": [
+        {
+          "product": "fell-ribbed-beanie",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "A pair of black-green insulated winter mittens with tan leather palms and long gauntlet cuffs, set side by side on a weathered dark granite slab, soft overcast daylight from the left, gentle shadow, a light dusting of snow on the stone.",
+          "alt": "Summit Insulated Mitts on granite with a dusting of snow",
+          "size": "1024x1536"
+        }
+      ],
+      "theme_template": null,
+      "variant_stock": [
+        {
+          "values": {
+            "Size": "S"
+          },
+          "level": 0
+        }
+      ]
+    },
+    {
+      "slug": "traverse-28-daypack",
+      "name": "Traverse 28L Daypack",
+      "description_html": "<p>A day pack sized for the long days: a shell, a puffy, lunch, water and the camera, with nothing swinging.</p><h3>Features</h3><ul><li>Clamshell zip to the main bag, plus a fast top lid pocket</li><li>Ventilated back panel and a removable hip belt</li><li>Two stretch side pockets that fit a 1 L bottle</li><li>Ice axe loop and pole keepers</li><li>Hydration sleeve</li></ul><h3>Materials</h3><p>Recycled 420-denier nylon with a waterproof coating; recycled polyester mesh back panel.</p><h3>Fit</h3><p>One torso size fits 16 to 20 in. Hip belt fits 26 to 46 in.</p><h3>Care</h3><p>Empty it, brush out the grit, wipe clean with a damp cloth, hang to dry.</p>",
+      "price": 165,
+      "sale_price": null,
+      "categories": [
+        "packs-bags"
+      ],
+      "tags": [
+        "daypack",
+        "bestseller",
+        "new"
+      ],
+      "attributes": {
+        "activity": [
+          "Hiking",
+          "Ski touring",
+          "Everyday"
+        ],
+        "material": "Recycled nylon",
+        "capacity": "28 L",
+        "weight": "1 lb 13 oz",
+        "made_in": "Vietnam"
+      },
+      "options": [
+        {
+          "name": "Color",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Black Spruce",
+              "price": 0,
+              "color": "#25302b"
+            },
+            {
+              "name": "Ochre",
+              "price": 0,
+              "color": "#b9822f"
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 40,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "ridgeline-hip-pack",
+        "headwall-shell-jacket",
+        "switchback-trail-pant"
+      ],
+      "cross_sells": [
+        {
+          "product": "enamel-camp-mug",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "A deep spruce-green 28-liter hiking daypack with a top lid pocket and stretch side pockets, standing upright on a weathered dark granite boulder, three-quarter view, soft overcast daylight, gentle shadow.",
+          "alt": "Traverse 28L Daypack in black spruce on a granite boulder",
+          "size": "1024x1536"
+        },
+        {
+          "prompt": "An invented hiker seen from behind and at a distance, carrying an ochre daypack, walking along a narrow trail across a vast green alpine meadow, low clouds sitting on dark peaks beyond.",
+          "alt": "Traverse 28L Daypack in ochre, carried across an alpine meadow",
+          "size": "1024x1536"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "long-valley-45-pack",
+      "name": "Long Valley 45L Pack",
+      "description_html": "<p>A light, simple pack for three to five nights out. It carries 30 lb like it is 20.</p><h3>Features</h3><ul><li>Adjustable torso length and a padded, pivoting hip belt</li><li>Roll-top main bag with a side zip</li><li>Large stretch front pocket for a wet tent fly</li><li>Two hip belt pockets that fit a phone</li></ul><h3>Materials</h3><p>Recycled 210-denier ripstop nylon body with a 420-denier base, aluminum stay frame.</p><h3>Fit</h3><p>Two torso sizes: S/M (15 to 18 in) and M/L (18 to 21 in).</p><h3>Care</h3><p>Wash by hand with mild soap, rinse, hang to dry out of the sun.</p>",
+      "price": 275,
+      "sale_price": 229,
+      "categories": [
+        "packs-bags"
+      ],
+      "tags": [
+        "backpacking",
+        "sale"
+      ],
+      "attributes": {
+        "activity": [
+          "Backpacking"
+        ],
+        "material": "Recycled nylon",
+        "capacity": "45 L",
+        "weight": "2 lb 9 oz",
+        "made_in": "Vietnam"
+      },
+      "options": [
+        {
+          "name": "Color",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Moss",
+              "price": 0,
+              "color": "#5d6b4c"
+            },
+            {
+              "name": "Slate",
+              "price": 0,
+              "color": "#4a5560"
+            }
+          ]
+        },
+        {
+          "name": "Torso",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "S/M",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "M/L",
+              "price": 0,
+              "color": null
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 18,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "cairn-down-jacket",
+        "merino-200-crew",
+        "wool-camp-blanket"
+      ],
+      "cross_sells": [
+        {
+          "product": "enamel-camp-mug",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "A moss-green 45-liter roll-top backpacking pack with a stretch front pocket and padded hip belt, standing upright on a flat granite slab beside a still mountain lake, three-quarter view, soft overcast daylight.",
+          "alt": "Long Valley 45L Pack in moss, beside a mountain lake",
+          "size": "1024x1536"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "rolltop-duffel-40",
+      "name": "Waxed Canvas Rolltop Duffel 40L",
+      "description_html": "<p>A roll-top duffel for car trips, ferries and hut weekends. It takes rain, sand and being thrown in the back of a truck.</p><h3>Features</h3><ul><li>Roll-top closure with leather buckle straps</li><li>Removable padded shoulder strap</li><li>Grab handles at both ends</li><li>Inside zip pocket for keys</li></ul><h3>Materials</h3><p>18 oz waxed organic cotton canvas, vegetable-tanned leather trim, solid brass hardware.</p><h3>Fit</h3><p>40 liters: about four days of clothes.</p><h3>Care</h3><p>Brush off dirt when dry. Re-wax the canvas once a year; condition the leather.</p>",
+      "price": 210,
+      "sale_price": null,
+      "categories": [
+        "packs-bags"
+      ],
+      "tags": [
+        "duffel"
+      ],
+      "attributes": {
+        "activity": [
+          "Coast",
+          "Everyday",
+          "Camp"
+        ],
+        "material": "Waxed cotton",
+        "capacity": "40 L",
+        "weight": "3 lb 2 oz",
+        "made_in": "Portugal"
+      },
+      "options": [
+        {
+          "name": "Color",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Tobacco",
+              "price": 0,
+              "color": "#6b4f33"
+            },
+            {
+              "name": "Slate",
+              "price": 0,
+              "color": "#4a5560"
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 14,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "driftline-waxed-field-jacket",
+        "wool-camp-blanket"
+      ],
+      "cross_sells": [
+        {
+          "product": "corrie-waxed-cap",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "A tobacco-brown waxed canvas roll-top duffel bag with leather buckle straps and brass hardware, resting on worn wooden floorboards of a boat dock, soft gray coastal light, gentle shadow.",
+          "alt": "Waxed Canvas Rolltop Duffel in tobacco on a wooden dock",
+          "size": "1024x1536"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "ridgeline-hip-pack",
+      "name": "Ridgeline Hip Pack",
+      "description_html": "<p>A small hip pack for short walks, town days and the camera on long ones. Wear it at the waist or across the chest.</p><h3>Features</h3><ul><li>Main zip pocket and a front stash pocket</li><li>Soft back panel</li><li>Webbing strap with a side-release buckle</li></ul><h3>Materials</h3><p>Recycled 420-denier nylon with a waterproof coating.</p><h3>Fit</h3><p>3 liters. Strap fits 24 to 50 in.</p><h3>Care</h3><p>Wipe clean with a damp cloth.</p>",
+      "price": 58,
+      "sale_price": null,
+      "categories": [
+        "packs-bags"
+      ],
+      "tags": [
+        "hip pack"
+      ],
+      "attributes": {
+        "activity": [
+          "Hiking",
+          "Everyday"
+        ],
+        "material": "Recycled nylon",
+        "capacity": "3 L",
+        "weight": "6 oz",
+        "made_in": "Vietnam"
+      },
+      "options": [
+        {
+          "name": "Color",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Black Spruce",
+              "price": 0,
+              "color": "#25302b"
+            },
+            {
+              "name": "Ochre",
+              "price": 0,
+              "color": "#b9822f"
+            },
+            {
+              "name": "Lichen",
+              "price": 0,
+              "color": "#a3a585"
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 44,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "traverse-28-daypack",
+        "merino-150-trail-tee"
+      ],
+      "cross_sells": [
+        {
+          "product": "fell-ribbed-beanie",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "A small lichen-green nylon hip pack with a webbing strap coiled beside it, lying on a gray, sun-bleached driftwood plank, soft overcast daylight from the left, gentle shadow, three-quarter view.",
+          "alt": "Ridgeline Hip Pack in lichen on driftwood",
+          "size": "1024x1536"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "enamel-camp-mug",
+      "name": "Enamel Camp Mug",
+      "description_html": "<p>A wide enamel mug for coffee at the tailgate and soup in the tent. It goes on the stove when the coffee goes cold.</p><h3>Features</h3><ul><li>Rolled steel rim</li><li>Wide base that does not tip on a rock</li><li>Stove-safe</li></ul><h3>Materials</h3><p>Enameled steel, 12 fl oz.</p><h3>Fit</h3><p>12 fl oz to the brim.</p><h3>Care</h3><p>Dishwasher-safe. Chips in the enamel are part of its life; they do not rust through.</p>",
+      "price": 26,
+      "sale_price": null,
+      "categories": [
+        "camp"
+      ],
+      "tags": [
+        "mug"
+      ],
+      "attributes": {
+        "activity": [
+          "Camp"
+        ],
+        "material": "Enameled steel",
+        "capacity": "12 fl oz",
+        "weight": "5 oz",
+        "made_in": "Poland"
+      },
+      "options": [
+        {
+          "name": "Color",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Bone",
+              "price": 0,
+              "color": "#e8e2d4"
+            },
+            {
+              "name": "Black Spruce",
+              "price": 0,
+              "color": "#25302b"
+            },
+            {
+              "name": "Ochre",
+              "price": 0,
+              "color": "#b9822f"
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 90,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "wool-camp-blanket",
+        "bothy-high-pile-fleece"
+      ],
+      "cross_sells": [
+        {
+          "product": "fell-ribbed-beanie",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "A bone-white enamel camp mug with a dark rolled rim, steam rising, set on a flat lichen-spotted granite rock at dawn, a blurred misty lake behind, soft natural light.",
+          "alt": "Enamel Camp Mug in bone on a granite rock at dawn",
+          "size": "1024x1536"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "wool-camp-blanket",
+      "name": "Wool Camp Blanket",
+      "description_html": "<p>A heavy wool blanket for the tailgate, the beach fire and the cold side of the tent. Woven with one stripe so it is easy to find in the dark.</p><h3>Features</h3><ul><li>Blanket-stitched edges</li><li>Leather carry strap included</li><li>Large enough for two by the fire</li></ul><h3>Materials</h3><p>Recycled wool blend, woven in a family mill in Portugal. 60 x 80 in.</p><h3>Fit</h3><p>60 x 80 in, 3 lb 8 oz.</p><h3>Care</h3><p>Shake it out and air it. Spot clean, or dry-clean when you must.</p>",
+      "price": 165,
+      "sale_price": null,
+      "categories": [
+        "camp"
+      ],
+      "tags": [
+        "blanket",
+        "new"
+      ],
+      "attributes": {
+        "activity": [
+          "Camp",
+          "Coast"
+        ],
+        "material": "Wool",
+        "warmth": "Warm",
+        "weight": "3 lb 8 oz",
+        "made_in": "Portugal"
+      },
+      "options": [
+        {
+          "name": "Color",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Peat",
+              "price": 0,
+              "color": "#4b3d30"
+            },
+            {
+              "name": "Oat",
+              "price": 0,
+              "color": "#d8cdb6"
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 24,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "enamel-camp-mug",
+        "bothy-high-pile-fleece",
+        "rolltop-duffel-40"
+      ],
+      "cross_sells": [
+        {
+          "product": "shieling-wool-sweater",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "A folded dark peat-brown wool blanket with one ochre stripe and blanket-stitched edges, a leather carry strap around it, resting on a gray, sun-bleached driftwood plank, soft overcast daylight from the left, gentle shadow.",
+          "alt": "Wool Camp Blanket in peat with an ochre stripe, folded on driftwood",
+          "size": "1024x1536"
+        },
+        {
+          "prompt": "Wide shot at dusk: two invented people seen from behind and at a distance, sitting close by a small driftwood fire on a dark sand beach, a peat-brown wool blanket around their shoulders, sea stacks in fog beyond, a last band of light on the horizon.",
+          "alt": "Wool Camp Blanket around two people by a beach fire at dusk",
+          "size": "1024x1536"
+        }
+      ],
+      "theme_template": null
+    }
+  ],
+  "pages": [
+    {
+      "slug": "about",
+      "title": "Our story",
+      "template": null,
+      "content_html": "<p>Fellreach started in 2017 in a former feed store at the edge of a small town on the dry side of the Cascades. One of us patrolled the ski hill above town; the other had spent fifteen years making and mending sails on the coast. We both owned too many jackets that leaked by their third winter and could not be fixed.</p><h2>A small range, worn hard</h2><p>We make about two dozen things: shells, insulation, wool, trail pants and packs. Every piece is worn for a full year on the ridges above town and on the outer coast before it goes on sale, and most of them change in that year. When something works, we keep making it, in the same pattern, for as long as we can.</p><h2>Made to be mended</h2><p>Our workshop sits behind the shop. Send us anything we make, at any age, and we will patch it, replace a zip, re-tape a seam or re-wax the canvas at cost. Last year we fixed 1,900 pieces. The best gear is the gear you already own.</p><h2>Materials we can stand behind</h2><p>Recycled nylon and polyester, merino from mulesing-free farms, traceable down and waxed organic cotton, with PFC-free water repellents throughout. We work with five factories, in Portugal, Poland and Vietnam, and we visit each of them every year.</p><h2>Come by</h2><p>The shop and workshop are open Thursday to Monday. Bring muddy boots and questions about trails; we have both opinions and maps.</p>"
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "template": null,
+      "content_html": "<p>Write to us at <a href=\"mailto:hello@fellreach.example\">hello@fellreach.example</a> or call <a href=\"tel:+15095550162\">(509) 555-0162</a>. A real person answers, usually the same day.</p><h2>Shop and workshop</h2><p>47 Larkspur Lane, Twisp, WA 98856</p><p>Thursday to Monday, 9 am to 5 pm. Closed Tuesdays and Wednesdays, when we are out testing.</p><h2>Repairs</h2><p>Drop gear off at the workshop counter or post it to the address above with a note: your name, your email and what needs doing. See <a href=\"/pages/repairs\">repairs</a> for how it works.</p><h2>Wholesale and press</h2><p>Use the same email with \"Wholesale\" or \"Press\" in the subject line.</p>"
+    },
+    {
+      "slug": "shipping-returns",
+      "title": "Shipping & returns",
+      "template": null,
+      "content_html": "<h2>Shipping</h2><p>Orders ship from Twisp, Washington, within two business days. Standard shipping is $9 to the US and Canada, and free on orders over $150.</p><ul><li>United States: usually 3 to 6 business days</li><li>Canada: usually 5 to 10 business days; duties and taxes may be due on delivery</li></ul><p>You will get a tracking link by email as soon as your parcel leaves.</p><h2>Returns</h2><p>Return anything unworn, with its tags, within 60 days of delivery for a full refund. US returns are free with the prepaid label in your order email; Canadian returns are at your cost. Refunds go back to the original payment method within five business days of the parcel reaching us.</p><h2>Exchanges</h2><p>The quickest way to change a size or color is to return the first piece and place a new order, so the one you want does not sell out while the parcel travels.</p><h2>If something fails</h2><p>If a seam lets go or a zip breaks because of how we made it, we will repair, replace or refund it, however old it is. Write to hello@fellreach.example with a photo and your order number, if you still have it.</p>"
+    },
+    {
+      "slug": "size-guide",
+      "title": "Size guide",
+      "template": null,
+      "content_html": "<p>Measure over a base layer, with the tape snug but not tight. Between sizes, take the larger for jackets and the smaller for base layers.</p><h2>Tops and jackets</h2><ul><li>XS: chest 33 to 35 in</li><li>S: chest 35 to 37 in</li><li>M: chest 38 to 40 in</li><li>L: chest 41 to 43 in</li><li>XL: chest 44 to 46 in</li><li>XXL: chest 47 to 49 in</li></ul><h2>Trail pants</h2><p>Pants are sized by waist in inches, with a 32 in inseam. We hem them free of charge at the workshop: send them back with a note of the length you want.</p><h2>Fits</h2><ul><li>Next to skin: base layers, close without squeezing</li><li>Trim: active layers that sit close for climbing and skiing</li><li>Regular: room for a fleece and a light puffy underneath</li><li>Relaxed: room for a thick sweater</li></ul><h2>Packs</h2><p>Measure your torso from the bone at the base of your neck to the top of your hip bones. The Long Valley comes in S/M (15 to 18 in) and M/L (18 to 21 in); the Traverse fits 16 to 20 in.</p>"
+    },
+    {
+      "slug": "repairs",
+      "title": "Repairs for life",
+      "template": null,
+      "content_html": "<p>We repair everything we make, for as long as you own it. Wear and tear is fixed at cost; anything that fails because of how we made it is fixed free.</p><h2>What we fix</h2><ul><li>Tears and holes in shells, fleece and packs, with patches matched as closely as we can</li><li>Broken zips and sliders</li><li>Lifting seam tape</li><li>Worn cuffs, hems and hip belt buckles</li><li>Waxed canvas, re-waxed</li><li>Wool, darned by hand</li></ul><h2>What it costs</h2><ul><li>Patch: from $15</li><li>Zip slider: $12; full zip: from $45</li><li>Re-taping a seam: from $25</li><li>Re-waxing a jacket or bag: $40</li></ul><h2>How to send it</h2><p>Wash the piece, put a note inside with your name, email and what needs doing, and post it to 47 Larkspur Lane, Twisp, WA 98856. We email a quote before we start. Most repairs take two to three weeks, longer in early winter.</p>"
+    }
+  ],
+  "blog": {
+    "slug": "journal",
+    "title": "Journal",
+    "posts": [
+      {
+        "slug": "three-days-on-the-high-route",
+        "title": "Three days on the high route",
+        "date": "2026-09-24",
+        "tags": [
+          "trip report"
+        ],
+        "content_html": "<p>We left the trailhead at five, in the dark, with three days of food and a forecast that said \"mostly clear.\" It was, for about six hours.</p><h2>Day one: up and over</h2><p>The first pass came at noon, after four thousand feet of switchbacks through larch that were just starting to turn. We ate lunch on a slab above a lake the color of slate and watched cloud come up the valley behind us.</p><h2>Day two: inside the cloud</h2><p>We walked most of the second day in fog so thick we navigated cairn to cairn. The Headwall shells earned their keep: eight hours of wind-driven drizzle, hoods up, pit zips open on the climbs. Nobody was cold, and nobody was wet from the inside, which is the part that matters.</p><h2>Day three: the clearing</h2><p>It broke at dawn on the third morning. We sat in our down jackets with coffee in enamel mugs and watched the cloud sink into the valleys until only the peaks were left. Then we walked down, slowly, the long way round.</p><h2>What we carried</h2><ul><li>Long Valley 45L Pack</li><li>Headwall 3L Shell Jacket and Cairn Down Jacket</li><li>Merino 200 Crew, worn three days running</li><li>Switchback Trail Pant</li></ul>",
+        "image": {
+          "prompt": "Two invented hikers seen from behind and small in the frame, standing on a granite ridge at dawn above a sea of cloud filling the valleys, dark peaks rising out of the cloud, a thin band of warm ochre light on the horizon, cold blue shadows.",
+          "alt": "Two hikers on a ridge above a sea of cloud at dawn",
+          "size": "1536x1024"
+        }
+      },
+      {
+        "slug": "a-wet-week-on-the-outer-coast",
+        "title": "A wet week on the outer coast",
+        "date": "2026-10-15",
+        "tags": [
+          "coast"
+        ],
+        "content_html": "<p>Every October we take the new season's samples to the outer coast for a week. It rains there two days out of three, the wind does not stop, and sand gets into everything. It is the best test we know.</p><h2>Walking the headlands</h2><p>Most days we walked ten or twelve miles: over headlands on muddy trails, down rope ladders to the beaches, across creek mouths at low water. The Squall jacket lived in a hip pack and came out every hour.</p><h2>What failed</h2><p>A zip slider on a sample pack corroded in four days of salt spray. We have changed the slider for the production run, and we will keep testing it next year.</p><h2>What we kept</h2><p>The Wool Camp Blanket by the evening fire, the Shieling crew under everything, and a waxed cap that has now been to the coast five years running. Some things you do not need to change.</p>",
+        "image": {
+          "prompt": "A foggy wild northern beach with dark sea stacks and drifted logs, an invented person in a dark rain jacket with the hood up walking away along the wet sand, small in the frame, gray sea and heavy rain clouds, reflections on the wet sand.",
+          "alt": "A walker in a rain jacket on a foggy beach among sea stacks",
+          "size": "1536x1024"
+        }
+      },
+      {
+        "slug": "first-snow-at-the-hut",
+        "title": "First snow at the hut",
+        "date": "2026-11-05",
+        "tags": [
+          "winter"
+        ],
+        "content_html": "<p>There is a small wooden hut four hours above town that we try to reach every year on the weekend of the first real snow. This year it came early, on the first of November.</p><h2>The walk in</h2><p>The trail was dry for the first two hours and white for the last two. The larches still held their gold, which made the whole valley look lit from inside. We wore grid fleece and shells on the climb and stopped every half hour to shake the snow off the branches above us, for no good reason.</p><h2>The night</h2><p>The hut stove takes an hour to warm the room. We spent it in the Bothy fleece and wool beanies, melting snow for tea and drying gloves on a string across the ceiling.</p><h2>The morning</h2><p>Eight inches of new snow, a blue sky and not a single track in the valley. We walked out on the same trail and it felt like a different place.</p>",
+        "image": {
+          "prompt": "A small dark wooden mountain hut in the first snow of the season, golden larch trees dusted white around it, a thin line of smoke from the stovepipe, an invented person with a pack approaching on foot far away seen from behind, gray-white sky over dark peaks.",
+          "alt": "A wooden hut in first snow among golden larches",
+          "size": "1536x1024"
+        }
+      }
+    ]
+  },
+  "menus": {
+    "main_menu": [
+      {
+        "name": "Shop",
+        "type": "url",
+        "value": "/products",
+        "items": [
+          {
+            "name": "Jackets",
+            "type": "category",
+            "value": "jackets",
+            "items": []
+          },
+          {
+            "name": "Fleece & Mid Layers",
+            "type": "category",
+            "value": "fleece-mid-layers",
+            "items": []
+          },
+          {
+            "name": "Base Layers",
+            "type": "category",
+            "value": "base-layers",
+            "items": []
+          },
+          {
+            "name": "Trail Pants",
+            "type": "category",
+            "value": "trail-pants",
+            "items": []
+          },
+          {
+            "name": "Hats & Gloves",
+            "type": "category",
+            "value": "hats-gloves",
+            "items": []
+          },
+          {
+            "name": "Packs & Bags",
+            "type": "category",
+            "value": "packs-bags",
+            "items": []
+          },
+          {
+            "name": "Camp",
+            "type": "category",
+            "value": "camp",
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Jackets",
+        "type": "category",
+        "value": "jackets",
+        "items": []
+      },
+      {
+        "name": "Packs",
+        "type": "category",
+        "value": "packs-bags",
+        "items": []
+      },
+      {
+        "name": "Journal",
+        "type": "blog",
+        "value": "journal",
+        "items": []
+      },
+      {
+        "name": "Our story",
+        "type": "page",
+        "value": "about",
+        "items": []
+      },
+      {
+        "name": "Repairs",
+        "type": "page",
+        "value": "repairs",
+        "items": []
+      }
+    ],
+    "footer_menu": [
+      {
+        "name": "Shop",
+        "type": "heading",
+        "items": [
+          {
+            "name": "All products",
+            "type": "url",
+            "value": "/products",
+            "items": []
+          },
+          {
+            "name": "Jackets",
+            "type": "category",
+            "value": "jackets",
+            "items": []
+          },
+          {
+            "name": "Fleece & Mid Layers",
+            "type": "category",
+            "value": "fleece-mid-layers",
+            "items": []
+          },
+          {
+            "name": "Base Layers",
+            "type": "category",
+            "value": "base-layers",
+            "items": []
+          },
+          {
+            "name": "Trail Pants",
+            "type": "category",
+            "value": "trail-pants",
+            "items": []
+          },
+          {
+            "name": "Packs & Bags",
+            "type": "category",
+            "value": "packs-bags",
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Help",
+        "type": "heading",
+        "items": [
+          {
+            "name": "Shipping & returns",
+            "type": "page",
+            "value": "shipping-returns",
+            "items": []
+          },
+          {
+            "name": "Size guide",
+            "type": "page",
+            "value": "size-guide",
+            "items": []
+          },
+          {
+            "name": "Repairs for life",
+            "type": "page",
+            "value": "repairs",
+            "items": []
+          },
+          {
+            "name": "Contact",
+            "type": "page",
+            "value": "contact",
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Fellreach",
+        "type": "heading",
+        "items": [
+          {
+            "name": "Our story",
+            "type": "page",
+            "value": "about",
+            "items": []
+          },
+          {
+            "name": "Journal",
+            "type": "blog",
+            "value": "journal",
+            "items": []
+          },
+          {
+            "name": "Refund policy",
+            "type": "url",
+            "value": "/policies/refund",
+            "items": []
+          },
+          {
+            "name": "Privacy",
+            "type": "url",
+            "value": "/policies/privacy",
+            "items": []
+          },
+          {
+            "name": "Terms",
+            "type": "url",
+            "value": "/policies/terms",
+            "items": []
+          }
+        ]
+      }
+    ]
+  },
+  "home_images": [
+    {
+      "key": "cover",
+      "size": "1536x1024",
+      "prompt": "A vast mountain valley at first light seen from a high ridge, a sea of cloud filling the valley floor, layered dark ridgelines fading into pale haze, one invented hiker in a slate-gray shell with an ochre pack standing small on the ridge in the right third of the frame, seen from behind, a faint warm glow on the far peaks, the lower third of the frame dark rock and shadow, wide open sky above.",
+      "alt": "A hiker on a high ridge at first light above a valley full of cloud",
+      "use": "home > cover (photo_cover): image"
+    },
+    {
+      "key": "cover_phone",
+      "size": "1024x1536",
+      "prompt": "Tall frame: a steep dark mountain ridge rising out of a sea of cloud at first light, one invented hiker in a slate-gray shell with an ochre pack standing small on the ridge near the vertical center, seen from behind, a faint warm glow on the peak above, the lower third of the frame dark rock and shadow.",
+      "alt": "A hiker on a ridge above the cloud at first light",
+      "use": "home > cover (photo_cover): image_phone (the taller crop on phones)"
+    },
+    {
+      "key": "note",
+      "size": "1536x1024",
+      "prompt": "A wide river mouth meeting a gray northern sea at dusk at low water, long sandbars and channels reflecting a pale sky, dark forested hills behind in mist, an invented person in a tobacco-brown waxed jacket walking with a dog along a sandbar in the left third of the frame, small and seen from behind.",
+      "alt": "A walker and a dog on a sandbar where a river meets the sea at dusk",
+      "use": "home > note (image_note): image; the note sits on the right"
+    },
+    {
+      "key": "about_valley",
+      "size": "1536x1024",
+      "prompt": "An autumn valley above a small mountain town on the dry side of a range: golden larches on dark slopes, a winding river below, open sagebrush benches, a gravel road, the first snow on the high peaks, late afternoon light raking across the hills, one invented person walking a ridge trail far away.",
+      "alt": "The valley above town in autumn, golden larches and first snow on the peaks",
+      "use": "the about page: the first image in its content (the build has no page.about template; see theme_settings_notes)"
+    },
+    {
+      "key": "about_workshop",
+      "size": "1536x1024",
+      "prompt": "Inside a small timber repair workshop: an industrial sewing machine on a worn wooden bench, a shell jacket with a fresh patch under the presser foot, spools of thread, a rack of jackets and packs waiting for repair, a tall window showing dark mountains in cloud, soft daylight; only a pair of hands visible, no faces.",
+      "alt": "The repair bench in the workshop, a jacket under the sewing machine",
+      "use": "the about page: a second image, under the heading \"Made to be mended\"; also fits the repairs page"
+    }
+  ],
+  "section_content": [
+    {
+      "templates": [
+        "home"
+      ],
+      "sections": {
+        "cover": {
+          "eyebrow": "Autumn and winter 2026",
+          "heading": "Go the long way round",
+          "text": "Shells, wool and packs for the weather on the far side of the ridge.",
+          "image": {
+            "$image": "cover"
+          },
+          "image_phone": {
+            "$image": "cover_phone"
+          },
+          "stand_in": "headwall-shell-jacket",
+          "caption": "Above the cloud, late October",
+          "primary_label": "Shop jackets",
+          "primary_href": "/categories/jackets",
+          "secondary_label": "Read the journal",
+          "secondary_href": "/blogs/journal"
+        },
+        "new-in": {
+          "eyebrow": "New for the cold months",
+          "heading": "Just in",
+          "link_label": "Shop all",
+          "link_href": "/products",
+          "products": {
+            "from": "products",
+            "products": [
+              "cairn-down-jacket",
+              "tarn-grid-fleece-hoodie",
+              "traverse-28-daypack",
+              "shieling-wool-sweater",
+              "fell-ribbed-beanie",
+              "wool-camp-blanket"
+            ]
+          }
+        },
+        "categories": {
+          "eyebrow": "Shop by layer",
+          "heading": "From the skin out",
+          "collections": {
+            "from": "collections",
+            "collections": [
+              "jackets",
+              "fleece-mid-layers",
+              "packs-bags",
+              "camp"
+            ]
+          },
+          "layout": "bands",
+          "link_label": "Shop now"
+        },
+        "best-sellers": {
+          "eyebrow": "Worn hardest",
+          "heading": "Best sellers",
+          "text": "The pieces that come back to the workshop with the most miles on them.",
+          "products": {
+            "from": "products",
+            "products": [
+              "headwall-shell-jacket",
+              "switchback-trail-pant",
+              "merino-200-crew",
+              "squall-packable-rain-jacket",
+              "ridgeback-merino-quarter-zip",
+              "long-valley-45-pack",
+              "bothy-high-pile-fleece",
+              "summit-insulated-mitts"
+            ]
+          },
+          "link_label": "Shop all",
+          "link_href": "/products"
+        },
+        "note": {
+          "image": {
+            "$image": "note"
+          },
+          "eyebrow": "Our story",
+          "heading": "Made for weather, mended for years",
+          "text": "We make a small range, wear every piece for a year before it goes on sale, and repair anything we sell, for as long as you own it.",
+          "link_label": "Read our story",
+          "link_href": "/pages/about"
+        }
+      }
+    },
+    {
+      "templates": [
+        "product"
+      ],
+      "sections": {
+        "stage": {
+          "extras": [
+            {
+              "label": "Shipping",
+              "detail": "Ships from Twisp, Washington, within two business days. $9 to the US and Canada, free over $150."
+            },
+            {
+              "label": "Returns",
+              "detail": "Unworn with tags, within 60 days of delivery, for a full refund. US returns are free."
+            },
+            {
+              "label": "Repairs for life",
+              "detail": "Send it back at any age and we will patch, re-zip or re-tape it at cost, or free if we got it wrong."
+            }
+          ]
+        },
+        "related": {
+          "heading": "Keep looking"
+        }
+      }
+    },
+    {
+      "groups": [
+        "footer"
+      ],
+      "sections": {
+        "footer": {
+          "tagline": "Gear for the long way round. Designed in the Methow Valley, worn hard on the ridges and the outer coast.",
+          "note": "Repairs for life on everything we make."
+        }
+      }
+    }
+  ],
+  "theme_settings_notes": "The build has no page.about.json or page.contact.json, so About and Contact use the plain page template (page_content) and no section_content can place images on them. After the import, put home_images about_valley at the top of the about page's content and about_workshop under its \"Made to be mended\" heading (the page body takes img blocks); about_workshop can also open the repairs page. Theme settings stay at their defaults (sticky header, names over the photo, second photo on hover, no quick add, photo fit cover): the product shots are full-bleed photos, so cover is right. No logo: the header and footer use the store name. Social links stay empty (the demo brand has no accounts)."
+}

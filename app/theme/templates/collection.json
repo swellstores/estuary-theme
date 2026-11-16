@@ -1,0 +1,37 @@
+{
+  "title": "Collection",
+  "sections": [
+    {
+      "id": "cover",
+      "type": "collection_cover",
+      "props": {
+        "collection": "current",
+        "height": "tall",
+        "show_children": "show"
+      }
+    },
+    {
+      "id": "products",
+      "type": "photo_grid",
+      "props": {
+        "eyebrow": "",
+        "heading": "",
+        "link_label": "",
+        "link_href": "/products",
+        "products": {
+          "from": "collection",
+          "collection": "current",
+          "limit": 24
+        },
+        "layout": "even",
+        "columns": "3",
+        "shape": "portrait",
+        "edge": "full",
+        "gap": "hairline",
+        "show_count": "show",
+        "show_sort": "show",
+        "show_filters": "show"
+      }
+    }
+  ]
+}

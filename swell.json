@@ -1,0 +1,32 @@
+{
+  "id": "estuary",
+  "name": "Estuary",
+  "type": "theme",
+  "version": "0.1.0",
+  "description": "An image-led storefront where large photographs carry every page",
+  "repository_url": "https://github.com/swellstores/estuary-theme",
+  "preview_src": "assets/preview.png",
+  "preview_mobile_src": "assets/preview-mobile.png",
+  "theme": {
+    "storefront": {
+      "app": "wave"
+    },
+    "listing": {
+      "industries": [],
+      "styles": [
+        "editorial"
+      ],
+      "features": [
+        "filters",
+        "quick_add",
+        "subscriptions"
+      ],
+      "catalog_sizes": [
+        "few",
+        "some"
+      ],
+      "best_for": "Any store with strong photography that it wants to show large",
+      "demo_url": "https://fellreach-demo--5pk8ja5y.swell.store/__demo"
+    }
+  }
+}

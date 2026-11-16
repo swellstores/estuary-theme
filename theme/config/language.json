@@ -1,0 +1,14 @@
+{
+  "$format": 1,
+  "photo": {
+    "$label": "Photo sections",
+    "$notes": {
+      "reel": "Name of a photo reel without a heading (screen readers)",
+      "reel_hint": "Hint beside a photo reel's heading that it scrolls sideways",
+      "more_photos": "Heading of a product's other photos (screen readers)"
+    },
+    "reel": "Products",
+    "reel_hint": "Scroll for more",
+    "more_photos": "More photos"
+  }
+}
