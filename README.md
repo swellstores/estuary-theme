@@ -37,4 +37,4 @@ How a section is written, the repository layout and how a theme is assembled are
 
 ## License
 
-Estuary is licensed under the Swell Theme License (`LICENSE`), which covers this repository, the shared theme core in `app/` included.
+Estuary is licensed under the Swell App License (`LICENSE`), which covers this repository, the shared theme core in `app/` included.
