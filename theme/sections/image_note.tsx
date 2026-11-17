@@ -12,7 +12,7 @@ export const schema = {
     { id: 'eyebrow', type: 'text', label: 'Small line above the heading' },
     { id: 'heading', type: 'text', label: 'Heading', default: 'Our story' },
     { id: 'text', type: 'textarea', label: 'Text', default: 'Learn more about who we are and what we make.' },
-    { id: 'link_label', type: 'text', label: 'Link label', default: 'Read more' },
+    { id: 'link_label', type: 'text', label: 'Link label', default: 'Read our story' },
     { id: 'link_href', type: 'url', label: 'Link', default: '/pages/about' },
     { id: 'side', type: 'select', label: 'Note side', options: ['right', 'left'], default: 'right' },
     { id: 'photo_height', type: 'select', label: 'Photo height', options: ['tall', 'medium'], default: 'tall' },
