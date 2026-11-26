@@ -2986,25 +2986,76 @@
         "product"
       ],
       "sections": {
-        "stage": {
-          "extras": [
-            {
-              "label": "Shipping",
-              "detail": "Ships from Twisp, Washington, within two business days. $9 to the US and Canada, free over $150."
-            },
-            {
-              "label": "Returns",
-              "detail": "Unworn with tags, within 60 days of delivery, for a full refund. US returns are free."
-            },
-            {
-              "label": "Repairs for life",
-              "detail": "Send it back at any age and we will patch, re-zip or re-tape it at cost, or free if we got it wrong."
-            }
-          ]
-        },
         "related": {
           "heading": "Keep looking"
         }
+      },
+      "blocks": {
+        "stage": [
+          {
+            "type": "product_breadcrumbs"
+          },
+          {
+            "type": "product_title"
+          },
+          {
+            "type": "product_rating"
+          },
+          {
+            "type": "product_price"
+          },
+          {
+            "type": "variant_picker"
+          },
+          {
+            "type": "purchase_options"
+          },
+          {
+            "type": "product_quantity"
+          },
+          {
+            "type": "add_to_cart"
+          },
+          {
+            "type": "pairs_with",
+            "props": {
+              "products": {
+                "from": "up_sells",
+                "limit": 3
+              }
+            }
+          },
+          {
+            "type": "product_description"
+          },
+          {
+            "type": "bundle_items"
+          },
+          {
+            "type": "product_specs"
+          },
+          {
+            "type": "collapsible_row",
+            "props": {
+              "title": "Shipping",
+              "text": "Ships from Twisp, Washington, within two business days. $9 to the US and Canada, free over $150."
+            }
+          },
+          {
+            "type": "collapsible_row",
+            "props": {
+              "title": "Returns",
+              "text": "Unworn with tags, within 60 days of delivery, for a full refund. US returns are free."
+            }
+          },
+          {
+            "type": "collapsible_row",
+            "props": {
+              "title": "Repairs for life",
+              "text": "Send it back at any age and we will patch, re-zip or re-tape it at cost, or free if we got it wrong."
+            }
+          }
+        ]
       }
     },
     {

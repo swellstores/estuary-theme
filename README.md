@@ -25,7 +25,7 @@ Estuary is the image-led one of Swell's free themes; it changes the look, not th
 - `photo_reel`: a sideways reel of products, by touch, trackpad or keyboard
 - `image_note`: one wide photo with a short note pinned over its corner
 - `collection_cover`: a category's opening on its own image
-- `product_stage`: the product page: the photo across the screen, a buy panel over its edge, the other photos two to a row
+- `product_stage`: the product page: the photo across the screen, a buy panel over its edge (a column of blocks you order, hide and add to), the other photos two to a row
 
 Its own templates are home, product, collection and cart; its own Header group sits over the home page's opening photo, and its Footer group carries a newsletter sign-up. Its theme settings (`theme/config/settings_content.json`) cover: a sticky header; product names over or under the photo; the second photo on hover; an add button under each product; how the product page's large photo fits. Its colors, fonts and style choices are in `theme/config/settings.json`.
 

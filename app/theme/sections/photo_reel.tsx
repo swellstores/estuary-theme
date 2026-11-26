@@ -1,10 +1,10 @@
 import type { ProductList, SiteInfo, Translate } from 'ui-kit';
-import { Container, Eyebrow, Heading, Icon, Image, pricesHiddenFor, Price, sectionColours } from 'ui-kit';
+import { CardRating, Container, Eyebrow, Heading, Icon, Image, pricesHiddenFor, Price, sectionColours } from 'ui-kit';
 
 // A sideways reel of the store's products, photo first: tall frames running off the right edge of the screen, each with
-// its name and price under it, and a last frame that links to the rest. It scrolls by touch, trackpad or keyboard (the
-// reel takes focus) and snaps to each frame; no script. Products come from the store (newest, best selling, a category,
-// the page's related products or the cart's); nothing without any.
+// its name, price and rating (only from a reviews app) under it, and a last frame that links to the rest. It scrolls by
+// touch, trackpad or keyboard (the reel takes focus) and snaps to each frame; no script. Products come from the store
+// (newest, best selling, a category, the page's related products or the cart's); nothing without any.
 export const schema = {
   label: 'Photo reel',
   icon: 'gallery',
@@ -38,6 +38,10 @@ export const styles = `
 & .pr-photo{aspect-ratio:var(--pr-shape);border-radius:0}
 & .pr-name{margin:14px 0 2px;font-size:var(--uk-text-md);font-weight:600;line-height:1.3;color:var(--uk-color-heading)}
 & .pr-price{margin:0;font-size:var(--uk-text-sm);color:var(--uk-color-text-muted)}
+& .uk-card-rating{display:flex;align-items:center;gap:6px;margin:4px 0 0;font-size:var(--uk-text-xs);color:var(--uk-color-text-muted);line-height:inherit}
+& .uk-card-rating .uk-stars{gap:2px;color:var(--uk-color-highlight)}
+& .uk-card-rating .uk-stars>svg{stroke:none}
+& .uk-card-rating .uk-stars>svg[fill="none"]{display:none}
 & .pr-end{display:grid;place-items:center;aspect-ratio:var(--pr-shape);border:1px solid var(--uk-color-line-strong);color:var(--uk-color-heading);text-decoration:none;font-family:var(--uk-font-heading);font-size:var(--uk-heading-sm)}
 & .pr-end span{display:inline-flex;align-items:center;gap:12px}
 @media (prefers-reduced-motion:no-preference){& .pr-photo>img{transition:transform .9s cubic-bezier(.2,.7,.2,1)}& .pr-link:hover .pr-photo>img{transform:scale(1.035)}& .pr-reel{scroll-behavior:smooth}}
@@ -81,6 +85,7 @@ export default function PhotoReel(p: Props) {
                   {hidden ? <span>{hidden.label}</span> : <Price price={x.price} compare={x.compare_at} labels={{ was: t('product.was'), now: t('product.now') }} />}
                   {sold && t('product.sold_out') ? <span style={{ marginLeft: 8 }}>{t('product.sold_out')}</span> : null}
                 </p>
+                <CardRating rating={x.rating} label={(average, count) => t('product.rated', { average, count })} />
               </a>
             </li>
           );

@@ -1,12 +1,13 @@
 import { useId } from 'react';
 import type { ProductData, ProductList, SiteInfo, Translate } from 'ui-kit';
-import { ActiveFilters, Container, Eyebrow, FilterForm, Heading, Icon, Image, Pagination, pricesHiddenFor, Price, QuickAdd, sectionColours, SortSelect } from 'ui-kit';
+import { ActiveFilters, CardRating, Container, Eyebrow, FilterForm, Heading, Icon, Image, Pagination, pricesHiddenFor, Price, QuickAdd, sectionColours, SortSelect } from 'ui-kit';
 
 // The store's products as a wall of photographs: tiles set edge to edge with a hairline between them, the first one
 // optionally twice the size, each product's name and price laid over the foot of its photo (or under it: the theme's
-// "card_words" setting). On a collection page's own list it also carries the count, sort, folded filters and pages,
-// all plain links and forms. The second photo on hover and a quick add button are the theme's settings, the same on
-// every grid. Nothing without products, except a collection's own empty text.
+// "card_words" setting), with its rating under them (only from a reviews app). On a collection page's own list it also
+// carries the count, sort, folded filters and pages, all plain links and forms. The second photo on hover and a quick
+// add button are the theme's settings, the same on every grid. Nothing without products, except a collection's own
+// empty text.
 export const schema = {
   label: 'Photo grid',
   icon: 'grid',
@@ -58,6 +59,12 @@ export const styles = `
 & .pg-price{margin:0;font-size:var(--uk-text-sm);color:var(--uk-color-text-muted)}
 & .pg-words--over .pg-price{color:inherit;opacity:.9}
 & .pg-sold{margin-left:8px}
+& .uk-card-rating{display:flex;flex-basis:100%;align-items:center;gap:6px;margin:2px 0 0;font-size:var(--uk-text-xs);color:var(--uk-color-text-muted);line-height:inherit}
+& .pg-words--over .uk-card-rating{color:inherit}
+& .uk-card-rating .uk-stars{gap:2px;color:var(--uk-color-highlight)}
+& .pg-words--over .uk-card-rating .uk-stars{color:inherit}
+& .uk-card-rating .uk-stars>svg{stroke:none}
+& .uk-card-rating .uk-stars>svg[fill="none"]{display:none}
 & .pg-add{padding:10px 0 0}
 & .pg-empty{margin:var(--uk-space-6) 0 0;font-size:var(--uk-text-md);color:var(--uk-color-text-muted)}
 & .pg-pages{margin-top:var(--uk-space-7)}
@@ -93,6 +100,7 @@ function Tile({ p, t, lead, level, sizes, priority, swap, pricesHidden }: {
           {pricesHidden ? <span>{pricesHidden.label}</span> : <Price price={p.price} compare={p.compare_at} labels={{ was: t('product.was'), now: t('product.now') }} />}
           {sold && t('product.sold_out') ? <span className="pg-sold">{t('product.sold_out')}</span> : null}
         </p>
+        <CardRating rating={p.rating} label={(average, count) => t('product.rated', { average, count })} />
       </div>
     </a>
   );
